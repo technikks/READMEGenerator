@@ -65,7 +65,7 @@ inquirer.prompt([
     const credits = `## Credits \n ${data.credits} \n`;
     const tests = `## Tests \n ${data.tests} \n`;
     const license = `## License \n ${data.license} \n`;
-    const questions = `## Questions \n For any questions, please contact me. \n\n Github: ${data.username} \n\n Email: ${data.email}`
+    const questions = `## Questions \n For any questions, please contact me. \n\n Github: [${data.username}](github.com/${username}) \n\n Email: ${data.email}`
 
     fs.writeFile(`sampleREADME.md`, title + description + tableOfContents + installations + usage + credits + tests + license + questions, (err) =>
     err ? console.log(err) : console.log('Check out your Sample README!')
