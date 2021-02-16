@@ -1,6 +1,6 @@
-# Sameple README 
+# Sample README 
 ## Description 
- This sample is to show user the final product.  
+ This sample is to show the user the final product the application can generate.  
 ## Table of Contents 
  *[Installations](#installations) 
 
@@ -14,9 +14,9 @@
 
  *[Questions](#questions) 
 ## Installations 
- Application requires inquirer. Users can install by typing in 'npm install inquirer' in the terminal.  
+ Users will need to install inquirer by typing 'npm install inquirer' in the terminal.  
 ## Usage 
- To invoke the application, users will need to type in 'node index.js' in the terminal.  
+ User can invoke the application by typing 'node index.js' in the terminal. 
 ## Credits 
  None 
 ## Tests 
@@ -24,6 +24,8 @@
 ## License 
  MIT 
 ## Questions 
- Any questions, please contact me. 
- Github: [github.com/technikks](github.com/technikks) 
+ For any questions, please contact me. 
+
+ Github: technikks 
+
  Email: nguyen.nikki@hotmail.com
