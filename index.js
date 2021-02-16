@@ -1,12 +1,23 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer'); 
 const fs = require('fs'); 
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
-const questions = inquirer.prompt([
+inquirer.prompt([
   {
     type: "input",
-    message: "What is your the name of your project?",
+    message: "What is your github username?",
+    name: "username",
+  },
+  {
+    type: "input",
+    message: "What is your email address?",
+    name: "email",
+  },
+  {
+    type: "input",
+    message: "What is the name of your project?",
     name: "name",
   },
   {
@@ -28,15 +39,39 @@ const questions = inquirer.prompt([
     type: "input",
     message: "Please list your collaborators, if any.",
     name: "credits",
+    default: 'If there are no collaborators, type "none"',
   },
   {
     type: "input",
     message: "Please provide the tests required for your application, if any, and provide examples on how to run them.",
     name: "tests",
-  }]);
+    default: 'If there are no tests, type "none"',
+  },
+  {
+    type: "list",
+    message: "Which license would you like to include?",
+    choices: ["GNU AGPLv3", "GNU GPLv3", "GNU LGPLv3", "Mozilla Public License 2.0", "Apache License 2.0", "MIT", "Boost Software License 1.0", "Unlicense"],
+    name: "license",
+  },
+])
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+.then((data) => {
+    const title = `# ${data.name} \n`; 
+    const description = `## Description \n ${data.description} \n`;
+    const tableOfContents = `## Table of Contents \n *[Installations](#installations) \n *[Usage](#usage) \n *[Credits](#credits) \n *[Tests](#test) \n *[Licnse](#license) \n *[Questions](#questions)`
+    const installations = `## Installations \n ${data.installations} \n`;
+    const usage = `## Usage \n ${data.usage} \n`;
+    const credits = `## Credits \n ${data.credits} \n`;
+    const tests = `## Tests \n ${data.tests} \n`;
+    const license = `## License \n ${data.license} \n`;
+    const questions = `## Questions \n Any questions, please contact me. \n Github: [${data.username}](github.com/${data.username}) \n Email: ${data.email}`
+
+    fs.writeFile(`sampleREADME.md`, title + description + tableOfContents + installations + usage + credits + tests + license + questions, (err) =>
+    err ? console.log(err) : console.log('Check out your Sample README!')
+    );
+  });
+
 
 // TODO: Create a function to initialize app
 function init() {}
