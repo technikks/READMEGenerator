@@ -31,11 +31,14 @@ The application will be invoked by using the following command:
 node index.js
 ```
 
-To see how the application works, check out the [walkthrough video](https://drive.google.com/file/d/1zr_kH5t5gHXyEEIpyxxj-9invcP2Zdyw/view?usp=sharing). 
+To see how the application works, check out the [walkthrough video](https://drive.google.com/file/d/1zr_kH5t5gHXyEEIpyxxj-9invcP2Zdyw/view?usp=sharing) and the [Sample README](sampleREADME.md) that was created in the video.
 
 ## Mock-up
 [Good README Guide](https://gw.bootcampcontent.com/GW-Coding-Boot-Camp/gwu-arl-fsf-pt-10-2020-u-c/-/blob/master/01-HTML-Git-CSS/04-Important/Good-README-Guide/README.md)
 
 ## Walkthrough Video
 This [walkthrough video](https://drive.google.com/file/d/1zr_kH5t5gHXyEEIpyxxj-9invcP2Zdyw/view?usp=sharing) will demonstrate the application functionality. 
+
+## Sampe Product
+[Sample README](sampleREADME.md)
 
