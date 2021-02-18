@@ -59,13 +59,13 @@ inquirer.prompt([
 .then((data) => {
     const title = `# ${data.name} \n`; 
     const description = `## Description \n ${data.description} \n`;
-    const tableOfContents = `## Table of Contents \n *[Installations](#installations) \n\n *[Usage](#usage) \n\n *[Credits](#credits) \n\n *[Tests](#test) \n\n *[Licnse](#license) \n\n *[Questions](#questions) \n`;
+    const tableOfContents = `## Table of Contents \n *[Installations](#installations) \n\n *[Usage](#usage) \n\n *[Credits](#credits) \n\n *[Tests](#test) \n\n *[License](#license) \n\n *[Questions](#questions) \n`;
     const installations = `## Installations \n ${data.installations} \n`;
     const usage = `## Usage \n ${data.usage} \n`;
     const credits = `## Credits \n ${data.credits} \n`;
     const tests = `## Tests \n ${data.tests} \n`;
     const license = `## License \n ${data.license} \n`;
-    const questions = `## Questions \n For any questions, please contact me. \n\n Github: [${data.username}](github.com/${data.username}) \n\n Email: ${data.email}`
+    const questions = `## Questions \n For any questions, please contact me. \n\n GitHub: [${data.username}](github.com/${data.username}) \n\n Email: ${data.email}`
 
     fs.writeFile(`sampleREADME.md`, title + description + tableOfContents + installations + usage + credits + tests + license + questions, (err) =>
     err ? console.log(err) : console.log('Check out your Sample README!')
