@@ -1,6 +1,6 @@
-# c 
+# README Generator Sample 
 ## Description 
- d 
+ This sample shows user how the application works and what the final product will look like.  
 ## Table of Contents 
  *[Installations](#installations) 
 
@@ -14,18 +14,18 @@
 
  *[Questions](#questions) 
 ## Installations 
- e 
+ inquirer 
 ## Usage 
- f 
+ This application is good to generate README files. To invoke the app, type in 'node index.js' in terminal.  
 ## Credits 
- g 
+ None 
 ## Tests 
- h 
+ None 
 ## License 
- GNU AGPLv3 
+ MIT 
 ## Questions 
  For any questions, please contact me. 
 
- Github: [a](github.com/a) 
+ Github: [technikks](github.com/technikks) 
 
- Email: b
+ Email: nguyen.nikki@hotmail.com
