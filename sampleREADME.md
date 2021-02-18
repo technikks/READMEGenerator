@@ -1,6 +1,6 @@
-# README Generator Sample 
+# README Generator 
 ## Description 
- This sample shows user how the application works and what the final product will look like.  
+ This application will take in user input and generate a README file.  
 ## Table of Contents 
  *[Installations](#installations) 
 
@@ -10,13 +10,13 @@
 
  *[Tests](#test) 
 
- *[Licnse](#license) 
+ *[License](#license) 
 
  *[Questions](#questions) 
 ## Installations 
- inquirer 
+ The application requires the inquirer package. To install, type in 'npm i' in your terminal. 
 ## Usage 
- This application is good to generate README files. To invoke the app, type in 'node index.js' in terminal.  
+ This application is good for generating README files.  
 ## Credits 
  None 
 ## Tests 
@@ -26,6 +26,6 @@
 ## Questions 
  For any questions, please contact me. 
 
- Github: [technikks](github.com/technikks) 
+ GitHub: [technikks](github.com/technikks) 
 
  Email: nguyen.nikki@hotmail.com
