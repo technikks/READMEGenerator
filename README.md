@@ -1,5 +1,4 @@
 # READMEGenerator
-GW Coding Homework #9 due Thursday, January 21, 2021. 
 
 ## Description 
 This application is a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). The user will be prompted to input the following: 
