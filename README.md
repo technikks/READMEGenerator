@@ -1,5 +1,5 @@
 # READMEGenerator
-GW Coding Boot Camp Homework #9
+GW Coding Bootcamp Homework #9
 
 ## Description 
 This application is a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). The user will be prompted to input the following: 
